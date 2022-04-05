@@ -6,7 +6,7 @@
   "sideEffects": false,
   "engines": {
     "node": "16.*",
-    "npm": "7.*"
+    "npm": "8.*"
   },
   "scripts": {
     "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",
@@ -22,9 +22,12 @@
     "@remix-run/react": "^1.2.3",
     "framer-motion": "^6.2.8",
     "jotai": "^1.6.1",
+    "ky": "^0.30.0",
+    "open-graph-scraper": "^4.11.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "remix": "^1.2.3"
+    "remix": "^1.2.3",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.2.3",

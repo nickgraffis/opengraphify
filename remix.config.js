@@ -5,9 +5,7 @@ module.exports = {
   serverBuildTarget: "netlify",
   server: "./server.js",
   ignoredRouteFiles: [".*"],
-  serverDependenciesToBundle: [
-    "capture-website",
-  ],
+  serverDependenciesToBundle: ["ky"],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "netlify/functions/server/index.js",
